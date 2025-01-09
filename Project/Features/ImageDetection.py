@@ -76,6 +76,7 @@ def CookieScrapper():
 
 cookie_dict = CookieScrapper()
 
+
 # Initializing the GoogleBard Reverse Engineering Program
 
 try:
