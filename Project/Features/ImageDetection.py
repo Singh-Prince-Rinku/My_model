@@ -90,6 +90,7 @@ except Exception as e:
     print("*This issue may arise due to the unsuccessful extraction of cookies from the extension.*")
     print(e)
 
+
 # Initiating the text modification function to generate a summarized version of the result text.
 
 def split_and_save_paragraphs(data, filename):
