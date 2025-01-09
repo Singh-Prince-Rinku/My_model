@@ -1,4 +1,5 @@
 from bardapi import BardCookies
+
 import datetime 
 import pyperclip
 import pyautogui 
@@ -6,6 +7,8 @@ import webbrowser
 from time import sleep 
 import json 
 import keyboard 
+
+
 # Acquiring the essential cookies from GoogleBard through scraping.
 
 def CookieScrapper():
@@ -32,7 +35,7 @@ def CookieScrapper():
     except json.JSONDecodeError as e:
         print("*Cookies Loaded Unsuccessfully*")
         print("""*The error has been identified as a result of unsuccessful cookie replication from the Chrome extension, 
-which is causing a disruption in the intended functionality.*""")
+        which is causing a disruption in the intended functionality.*""")
     
     SID = "__Secure-1PSID"
     TS = "__Secure-1PSIDTS"
