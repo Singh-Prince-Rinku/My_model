@@ -104,6 +104,8 @@ def split_and_save_paragraphs(data, filename):
             return joined_string
         except Exception as e:
             print(e)
+            
+            
 
 # Commencing the main execution phase.
 def MainExecution():
