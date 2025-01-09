@@ -105,8 +105,6 @@ def split_and_save_paragraphs(data, filename):
             print(e)
 
 # Commencing the main execution phase.
-
-
 def MainExecution():
 
     while True:
