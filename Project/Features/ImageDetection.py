@@ -1,5 +1,4 @@
 from bardapi import BardCookies
-
 import datetime 
 import pyperclip
 import pyautogui 
@@ -8,9 +7,7 @@ from time import sleep
 import json 
 import keyboard 
 
-
 # Acquiring the essential cookies from GoogleBard through scraping.
-
 def CookieScrapper():
     print("")
     print("*The extraction of essential cookies from GoogleBard has been accomplished successfully.*")
