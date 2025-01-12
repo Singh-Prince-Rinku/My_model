@@ -13,7 +13,7 @@ def CookieScrapper():
     print("*The extraction of essential cookies from GoogleBard has been accomplished successfully.*")
     webbrowser.open("https://bard.google.com")
     sleep(5)
-    pyautogui.click(x=1768, y=55)
+    pyautogui.click(x=2339, y=89)
     sleep(2)
     pyautogui.click(x=1573, y=251)
     sleep(2)
